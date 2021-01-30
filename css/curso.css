@@ -1,0 +1,45 @@
+.punto {
+  padding: 10px 30px;
+  background-color: whitesmoke;
+  display: inline-block;
+  color: black;
+  margin: 3px;
+  text-decoration: none;
+}
+.punto:hover {
+  background-color: brown;
+}
+nav {
+  background-color: greenyellow;
+  display: flex;
+  justify-content: space-around;
+}
+button:hover {
+  background-color: cyan;
+}
+button:active {
+  background-color: mediumspringgreen;
+}
+.boton {
+  padding: 15px 0;
+  background-color: whitesmoke;
+  color: black;
+  display: none;
+  border: 3px greenyellow solid;
+}
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+  }
+  .punto {
+    margin: 3px;
+    width: 83%;
+  }
+  .boton {
+    display: inline-block;
+    width: 100%;
+  }
+  .vemos {
+    display: none;
+  }
+}

@@ -1,0 +1,50 @@
+/* 
+.item:nth-child(3) {
+  background-color: peru;
+} */
+/* .spring .grid {
+  background-color: blueviolet;
+  grid-column: 1 / 1 span;
+  grid-row: 1 / 2 span;
+} */
+.spring {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+.spring .item {
+  background-color: rgb(255, 68, 0);
+  color: white;
+  grid-column: 1 / 2span;
+  grid-row: 2 span;
+}
+.spring .auyama {
+  background-color: teal;
+  color: white;
+  grid-column: 1 / 2span;
+  grid-row: 2 span;
+}
+.spring .azucar {
+  background-color: skyblue;
+  color: white;
+  grid-column: 1 / 2span;
+  grid-row: 2 span;
+}
+.spring .basura {
+  background-color: peru;
+  color: white;
+  grid-column: 1 / 2span;
+  grid-row: 2 span;
+}
+.spring .cristo {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  grid-column: 1 / 2span;
+  grid-row: 2 span;
+}
+.spring .rey {
+  background-color: purple;
+  color: white;
+  grid-row: 5;
+}
