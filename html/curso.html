@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title> Curso </title>
+  <link rel='stylesheet' href='../css/curso.css'>
+</head>
+<body>
+  <nav>
+  <i>
+  <button class="boton" onClick="paraco()"> Menu </button>
+  <a href='#' class="punto vemos"> Inicio </a>
+  <a href='#' class="punto vemos"> Nudo </a>
+  <a href='#' class="punto vemos"> Presentacion </a>
+  <a href='#' class="punto vemos"> Presidente </a>
+  </i>
+</nav>
+  <script>
+    function paraco(){
+      // console.log ('en la juega prro')
+      var caja = document.getElementsByClassName('punto');
+      for(var i = 0; i < caja.length; i++){ 
+          caja[i].classList.toggle('vemos');
+       }
+    }
+  </script> 
+</body>
+</html>

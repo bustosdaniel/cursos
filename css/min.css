@@ -1,0 +1,6 @@
+.spring {
+  display: grid;
+  grid-template-columns: minmax(auto, 2fr) 2fr;
+  grid-row: minmax(100px, auto) 300px;
+  grid-gap: 20px;
+}

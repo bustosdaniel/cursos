@@ -1,0 +1,59 @@
+body {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  margin: 100px;
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+h1 {
+  text-align: center;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.arequipe {
+  background-color: #e7e7e7;
+  padding: 10px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 4px #e7e7e7;
+  width: 24%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.curso {
+  background-color: rgba(71, 43, 231, 0.767);
+  color: black;
+  display: block;
+  padding: 10px;
+  font-size: 25px;
+  text-decoration: none;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.curso:hover {
+  background-color: blueviolet;
+}
+.curso:active {
+  background-color: violet;
+}
+.precio {
+  font-size: 35px;
+  color: blueviolet;
+}
+@media (max-width: 1400px) {
+  .arequipe {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 700px) {
+  .arequipe {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

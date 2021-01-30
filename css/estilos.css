@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(136, 255, 0);
+  margin: 100px 200px;
+}
+h1 {
+  color: blueviolet;
+  font-size: 60px;
+}
+h2 {
+  color: blueviolet;
+  font-size: 35px;
+}
+p {
+  color: blueviolet;
+}
+h1 {
+  text-align: center;
+}
+.color {
+  color: blueviolet;
+  font-size: 25px;
+}
+.primo {
+  color: blueviolet;
+  font-size: 25px;
+}

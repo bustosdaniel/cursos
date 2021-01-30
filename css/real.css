@@ -1,0 +1,33 @@
+h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+}
+h2 {
+  color: rgba(0, 0, 0, 0.729);
+}
+li {
+  color: rgb(20, 1 65, 40);
+}
+Nav {
+  background: royalblue;
+  padding: 15px;
+}
+body {
+  background-color: rgb(136, 255, 0);
+  margin: 100px 200px;
+}
+.cr7 {
+  background: royalblue;
+  padding: 15px;
+  width: 25%;
+  margin: 15px;
+}
+.caja {
+  display: flex;
+}
+.unico {
+  background: royalblue;
+  padding: 15px;
+  width: 43%;
+}
