@@ -1,0 +1,106 @@
+
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Indie Flower', cursive;
+    background-color: aqua;
+    color: tomato ;
+}
+.cn-padre{
+    display: flex;
+    flex-flow: column nowrap;
+}
+    .header{
+        background-color: black;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+        .menu{
+            background-color: #16c79a;
+            display: flex;
+            flex-flow: row nowrap;
+            height: 120px;
+            align-items: center;
+        }
+            .logo{
+                background-color: #19456b;
+                flex: 1 1 auto;
+                height: 35px;
+            }
+            .nav{
+                background-color: #19456b;
+                flex: 5 1 auto;
+                height: 35px;
+            }
+            .social{
+                background-color: #19456b;
+                flex: 1 1 auto;
+                height: 35px;
+            }
+        .txt-principal{
+            background-color: #a115c0;
+        }
+            h1{
+            background-color: #e7d9ea;
+            }
+    .section{
+        background-color: black;
+        display: flex;
+    }
+        .articulos{
+            background-color: #eeeeee; 
+            flex: 2 1 auto;
+            display: flex;
+            flex-flow: row wrap;
+        }
+            .sub{
+                background-color: #32e0c4;
+                flex: 1 1 40%;
+            }
+            .navegacion{
+                background-color: #0d7377;
+                flex: 1 1 100%;
+            }
+        .aside{
+            background-color: #ff7a00;
+            flex: 1 1 auto;
+        }
+            .anuncios{
+                background-color: #28abb9;
+            }
+    .footer{
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+        .pagina{
+            background-color: #a8dda8;
+            width: 300px;
+        }
+@media all and (max-width: 800px){
+    .section{
+        flex-direction: column;
+    }
+    .menu{
+        flex-direction: column;
+        height: auto;
+    }
+    .aside{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media all and (max-width: 600px){
+    .articulos{
+        flex-direction: column;
+    }
+}
+@media all and (max-width: 500px){
+    .aside{
+        flex-direction: column;
+    }
+}
+

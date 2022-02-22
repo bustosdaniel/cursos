@@ -1,0 +1,26 @@
+.spring{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat( 3, 1fr);
+    grid-template-rows: repeat(3, 150px);
+    justify-items: center;
+    align-items: center;
+}
+
+.spring .item{
+    background-color: deeppink;
+    color: azure;
+    justify-self: stretch;
+}
+
+.spring .tema{
+    background-color: rgb(46, 18, 18);
+    color: azure;
+    justify-self: stretch;
+}
+
+.spring .text{
+    background-color: aquamarine;
+    color: azure;
+    justify-self: stretch;
+}

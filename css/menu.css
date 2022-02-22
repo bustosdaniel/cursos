@@ -1,0 +1,36 @@
+
+body{
+    background-color: aquamarine;
+    font-family: 'Sriracha', cursive;
+    height: 100px;
+}
+.contenedor ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.contenedor .list-item {
+   display: flex;
+    justify-content: flex-end;
+}
+.contenedor li a{
+    background-color: whitesmoke;
+    color: black;
+    padding: 12px 22px;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+}
+.contenedor .desple{
+    display: none;
+}
+.contenedor li:hover .desple{
+    display: block;
+}
+.contenedor li a:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+.contenedor li a:active{
+    background-color: tomato;
+}
